@@ -1,0 +1,21 @@
+{
+  "name": "raspberrypi-nodejs-iotpipe",
+  "version": "0.0.1",
+  "description": "IoT Pipe's API for the Raspberry Pi using NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "raspberrypi-nodejs-iotpipe"
+  },
+  "keywords": [
+    "iot",
+    "raspberrypi",
+    "nodejs",
+    "iotpipe"
+  ],
+  "author": "IoT Pipe Team",
+  "license": "MIT"
+}
