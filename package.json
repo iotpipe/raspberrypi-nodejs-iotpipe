@@ -1,8 +1,8 @@
 {
-  "name": "raspberrypi-nodejs-iotpipe",
+  "name": "iotpipe",
   "version": "0.0.1",
   "description": "IoT Pipe's API for the Raspberry Pi using NodeJS",
-  "main": "index.js",
+  "main": "iotpipe.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
