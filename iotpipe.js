@@ -36,10 +36,10 @@ exports.scan = function()
 //Reads a JSON payload from IoT Pipe web service that contains the desired values of output ports.
 exports.updateOutputs = function(topic, msg)
 {
-  if( topic.equals(exports.outputTopic) )
-	throw {name : "NotImplementedError", message : "Not implemented yet"};
-  else
-	return true;    
+ 	if( topic==exports.outputTopic )
+	{
+		gpio.gpio_update_outputs(msg);
+	}
 }
 
 //Generates the topic to which the device subscribes to receive updates to its output ports
