@@ -11,17 +11,17 @@ Much thanks to knolleary for his PubSubClient, from which much of this example w
 var iotpipe = require('../');
 var mqtt = require('mqtt');
 
-var ssid="CenturyLink0638";
-var password="5nesxjf5kym5nd";
-var deviceId="a75dfbb18d71a7f";
-var mqtt_user="e59ab9c78622f2689e1f533ffbdf78d";
-var mqtt_pass="5cf3f075d166cea7e59e8116c65185e";
+var ssid="PLACEHOLDER";
+var password="PLACEHOLDER";
+var deviceId="PLACEHOLDER";
+var mqtt_user="PLACEHOLDER";
+var mqtt_pass="PLACEHOLDER";
 var mqtt_server="mqtt://broker.iotpipe.io";
 
 
-
+//Setup IoT Pipe , and designate GPIO17 as an output port with the name "LED"
 iotpipe.IoTPipe(deviceId);
-iotpipe.addDigitalOutputPort(17,"GPIO");
+iotpipe.addDigitalOutputPort(17,"LED");
 
 var client  = mqtt.connect(mqtt_server);
 client.subscribe(iotpipe.getOutputTopic());
