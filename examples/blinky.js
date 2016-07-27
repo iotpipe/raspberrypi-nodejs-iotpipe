@@ -1,11 +1,6 @@
 
 /*
-Much thanks to knolleary for his PubSubClient, from which much of this example was built.
-*/
-
-
-/*
- * This Tutorial will allow you to turn an LED on and off from the IoT Pipe website.  The tutorial can be found at http://localhost:3000/esp8266arduinointro
+ * This Tutorial will allow you to turn an LED on and off from the IoT Pipe website.  The tutorial can be found at http://www.iotpipe.io/raspberrypi
 */
 
 var iotpipe = require('../');

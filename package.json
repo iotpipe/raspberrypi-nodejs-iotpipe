@@ -1,6 +1,6 @@
 {
   "name": "iotpipe-pi",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "IoT Pipe's API for the Raspberry Pi using NodeJS",
   "main": "iotpipe.js",
   "repository": {
